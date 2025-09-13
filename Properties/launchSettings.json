@@ -11,7 +11,7 @@
       "sslPort": 0
     },
     "iisExpress": {
-      "applicationUrl": "http://localhost:52283/",
+      "applicationUrl": "http://localhost:54283/",
       "sslPort": 0
     }
   },
@@ -22,7 +22,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5001;http://localhost:5000;https://*:5001;http://*:5000"
+      "applicationUrl": "https://localhost:5201;http://localhost:5200;https://*:5201;http://*:5200"
     },
     "Production": {
       "commandName": "Project",
@@ -30,7 +30,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       },
-      "applicationUrl": "https://localhost:5001;http://localhost:5000;https://*:5001;http://*:5000"
+      "applicationUrl": "https://localhost:5201;http://localhost:5200;https://*:5201;http://*:5200"
     }
   }
 }
